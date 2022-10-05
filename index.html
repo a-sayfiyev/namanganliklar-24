@@ -17,23 +17,40 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="site-header-container container">
-      <h2 class="site-logo">Namanganliklar 24</h2>
-      <div class="currency">
-        <p class="currency-money"><span class="main-currency-icon">$</span> 10137.2</p>
-        <p class="currency-money"><span class="main-currency-icon">P</span> 138.26</p>
-      </div>
-      <div class="search-place">
-        <p class="search-icon"><img src="img/search.png" alt=""></p>
-        <p class="search-text">Поиск</p>
-      </div>
 
-      <div class="language">
-        <p class="language-uz">УЗ</p>
-        <p class="language-ru">РУ</p>
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <!-- SITE-HEADER-TOP -->
+    <div class="site-header-top">
+      <div class="site-header-top-container container">
+        <!-- SITE-HEADER-LOGO -->
+        <a class="site-header-logo" href="index.html">
+          <img class="site-header-logo-img" src="img/logo-purple.svg" alt="N24 logo" width="264" height="28">
+        </a>
+
+          <!-- CURRENCY RATES -->
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b>
+            <span class="currency-rates-value">11028.14</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">Р</b>
+            <span class="currency-rates-value">185.42</span>
+          </li>
+        </ul>
+
+        <!-- GLOBAL SEARCH FORM -->
+
+        <!-- LANG-TOGGLE -->
+        <div class="lang-toggle">
+          <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
+          <a class="lang-toggle-link" href="index.html/ru">РУ</a>
+        </div>
+
+        <!-- SITE-HEADER-AUTH -->
+        <a class="button button-primary" href="#">Войти</a>
       </div>
-      <a class="main-link" href="#">Войти</a>
     </div>
   </header>
 
