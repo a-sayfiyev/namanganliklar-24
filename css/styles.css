@@ -185,8 +185,8 @@ img {
 }
 
 .sitenav-item {
-margin-top: 4px;
-margin-bottom: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .sitenav-item:not(:last-child) {
@@ -212,64 +212,90 @@ margin-bottom: 4px;
   display: flex;
 }
 
-.news {
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+  padding-top: 50px;
+}
+
+
+/* NEWS-GRID */
+.news-grid {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -10px;
 }
 
-.hero-info-item {
-  margin: 0;
+.news-grid-item {
   width: 393px;
-height: 382px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 17px 15px;
-  background-color: #f6f6f6;
-  border-radius: 15px;
-}
-
-.hero-main-text {
-  font-size: 20px;
-  line-height: 26px;
-  color: #000000;
-  margin: 0;
+  margin-left: 10px;
   margin-bottom: 10px;
 }
 
-.hero-info-text {
-  margin: 0;
-color: #4A4B4C;
-line-height: 22px;
-margin-bottom: 15px;
-}
-
-.hero-info-img {
-  border-radius: 10px;
-  width: 359px;
-height: 165px;
-margin-bottom: 15px;
-}
-
-.copyright-info {
+.article-card {
   display: flex;
-  align-items:center;
+  flex-direction: column;
+  padding: 20px 17px 15px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
 }
 
-.hero-info-icon {
-border-radius: 5px;
-width: 20px;
-height: 20px;
+.article-card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
-.copyright-text {
-  margin: 0;
+.article-card-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.article-card-link:hover {
+  color: #7296EC;
+}
+
+.article-card-link:active {
+  opacity: 0.6;
+}
+
+.article-card-text {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.article-card-img {
+  display: block;
+  width: 360px;
+  height: 165px;
+  margin-bottom: 16px;
+  margin-top: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.article-card-footer {
+  display: flex;
+  align-items: center;
+}
+
+.article-card-source-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.article-card-source-time {
   font-size: 12px;
-  line-height: 14.22px;
-color:  #5E5F61;
-margin-left: 10px;
+  line-height: normal;
+  color: #5E5F61;
 }
 
-.banner {
-padding-top: 60px;
-padding-bottom: 60px;
+.article-card-source {
+
 }
