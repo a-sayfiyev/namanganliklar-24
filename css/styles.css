@@ -630,9 +630,11 @@ list-style: none;
 margin-right: 25px;
 }
 
+
 .site-footer-socials-link {
   display: flex;
 }
+
 
 .site-footer-socials-icon {
 flex-shrink: 0;
